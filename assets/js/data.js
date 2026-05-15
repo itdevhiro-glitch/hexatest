@@ -1,0 +1,15 @@
+export const SITE_CONFIG = {
+  maintenance: false,
+  maintenanceMessage: "Hexaria sedang maintenance sebentar. Balik lagi nanti ya.",
+  agencyName: "Hexaria",
+  tagline: "Where every star becomes a story."
+};
+
+export const TALENTS = [
+  { slug:"lumiere-neva", icon:"🌂", name:"Lumiere-Neva", title:"Celestial Umbra Idol", constellation:"Umbrella Nebula", color:"violet", debut:"Gen 01 · Talent Destiny", quote:"A soft light for every lost traveler.", bio:"Lumiere-Neva adalah talent bernuansa elegan dengan aura bulan, cocok untuk konten singing, zatsudan, dan chill stream bernuansa dreamy.", tags:["Singing","Zatsudan","Chill"], schedule:"Mon · Wed · Fri / 20:00 WIB", social:{youtube:"#", twitter:"#", discord:"#"}},
+  { slug:"ookaminotabi-daiki", icon:"🐺", name:"Ookaminotabi-Daiki", title:"Stellar Wolf Traveler", constellation:"Lupus Trail", color:"blue", debut:"Gen 01 · Talent Destiny", quote:"Run with the stars, howl with the night.", bio:"Daiki membawa konsep wolf traveler yang cocok untuk gaming, reaction, dan konten petualangan dengan vibe loyal dan energik.", tags:["Gaming","Adventure","Reaction"], schedule:"Tue · Thu · Sat / 19:30 WIB", social:{youtube:"#", twitter:"#", discord:"#"}},
+  { slug:"hanaga-reynala", icon:"🐦‍⬛", name:"Hanaga-Reynala", title:"Raven Star Oracle", constellation:"Corvus Veil", color:"indigo", debut:"Gen 01 · Talent Destiny", quote:"Secrets sound better under starlight.", bio:"Reynala punya persona raven oracle, cocok untuk horror stream, lore reading, mystery, dan konten dengan atmosfer dark elegant.", tags:["Horror","Lore","Mystery"], schedule:"Wed · Sat / 21:00 WIB", social:{youtube:"#", twitter:"#", discord:"#"}},
+  { slug:"akami-yura", icon:"🏹", name:"Akami-Yura", title:"Crimson Archer Comet", constellation:"Sagitta Rouge", color:"red", debut:"Gen 01 · Talent Destiny", quote:"One shot, one wish, one constellation.", bio:"Yura adalah karakter archer berenergi tajam dan kompetitif, pas untuk FPS, MOBA, challenge stream, dan event collab.", tags:["FPS","MOBA","Challenge"], schedule:"Daily random / 20:00 WIB", social:{youtube:"#", twitter:"#", discord:"#"}},
+  { slug:"kazuurie-reverie", icon:"🪽", name:"Kazuurie-Reverie", title:"Dreamwing Balladeer", constellation:"Ala Reverie", color:"pink", debut:"Gen 01 · Talent Destiny", quote:"Dreams are wings that remember the sky.", bio:"Kazuurie membawa vibe dreamwing yang lembut, cocok untuk music stream, art, cozy talk, dan konten healing.", tags:["Music","Art","Cozy"], schedule:"Fri · Sun / 20:30 WIB", social:{youtube:"#", twitter:"#", discord:"#"}},
+  { slug:"vyn-vortigern", icon:"🐥", name:"Vyn-Vortigern", title:"Golden Nova Trickster", constellation:"Aquila Spark", color:"gold", debut:"Gen 01 · Talent Destiny", quote:"Chaos, but make it sparkling.", bio:"Vyn adalah nova trickster dengan energi fun, cocok untuk variety game, meme review, short-form content, dan live interaktif.", tags:["Variety","Comedy","Shorts"], schedule:"Tue · Fri · Sun / 19:00 WIB", social:{youtube:"#", twitter:"#", discord:"#"}}
+];
