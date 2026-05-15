@@ -1,4 +1,4 @@
-# Hexaria VTuber Agency Prototype v3
+# Hexaria VTuber Agency Prototype v5
 
 Rangka web statis HTML/CSS/JS modular untuk Hexaria.
 
@@ -31,3 +31,8 @@ Maka `index.html` akan menahan user di loading/maintenance gate.
 
 ## Hosting
 Siap upload ke GitHub Pages atau Hostinger static hosting.
+
+
+## Update v5
+- Banner utama landing page sudah diganti ke asset terbaru yang dikirim user.
+- Cache query dinaikkan ke `?v=5` supaya browser tidak nahan asset lama.

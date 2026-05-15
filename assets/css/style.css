@@ -37,3 +37,26 @@
 .profile-copy h1{font-family:var(--t-font);letter-spacing:var(--t-letter,-.04em);color:var(--t-text,#fff);text-shadow:0 0 24px color-mix(in srgb,var(--t-accent) 45%,transparent)}
 .hero-card img{object-position:center center}
 @media(max-width:760px){.talent-card{grid-template-columns:1fr}.talent-banner{border-right:0;border-bottom:1px solid var(--line);min-height:172px}.talent-name{font-size:31px}.talent-icon{font-size:42px}.talent-info:before{display:none}}
+
+
+/* V4 REAL THEME REWORK: setiap talent satu bentuk, tapi feel/font/warna/background beda total */
+.talent-grid{display:grid;grid-template-columns:1fr;gap:22px}
+.talent-card{overflow:hidden;border-width:1px;border-radius:30px;min-height:260px;grid-template-columns:48% 1fr;isolation:isolate}
+.talent-banner{min-height:260px;justify-content:flex-start;padding-left:clamp(22px,4vw,62px)}
+.talent-banner:before{transition:.35s transform,.35s filter}
+.talent-card:hover .talent-banner:before{transform:scale(1.08);filter:saturate(1.22) contrast(1.08)}
+.talent-banner:after{backdrop-filter:blur(.5px)}
+.talent-name{position:relative;z-index:3;max-width:70%;}
+.talent-icon{position:relative;z-index:4;font-size:clamp(42px,6vw,76px)}
+.talent-info{display:flex;flex-direction:column;justify-content:center;padding:28px 30px;min-height:260px}
+.talent-info h3{font-size:clamp(26px,3vw,44px);margin-top:8px}
+.talent-info small{font-weight:800;color:color-mix(in srgb,var(--t-accent) 70%,white)}
+.talent-card:before{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(90deg,color-mix(in srgb,var(--t-accent) 28%,transparent),transparent 34%,color-mix(in srgb,var(--t-accent2) 18%,transparent));opacity:.58;z-index:0}
+.talent-card>*{position:relative;z-index:1}
+.theme-daiki{border-style:dashed}.theme-daiki .tag{border-radius:8px}.theme-daiki .talent-info{background:linear-gradient(135deg,rgba(225,235,245,.08),rgba(30,38,48,.14))}.theme-daiki .talent-banner{clip-path:polygon(0 0,100% 0,94% 100%,0 100%)}
+.theme-kazuurie{border-color:rgba(238,247,255,.45)}.theme-kazuurie .tag{border-radius:999px;background:rgba(255,255,255,.14)}.theme-kazuurie .talent-info{background:linear-gradient(135deg,rgba(216,199,255,.15),rgba(255,255,255,.05))}.theme-kazuurie .talent-banner{clip-path:ellipse(92% 86% at 40% 50%)}
+.theme-yura{border-color:rgba(255,159,45,.55)}.theme-yura .tag{border-radius:4px;text-transform:uppercase}.theme-yura .talent-info{background:linear-gradient(135deg,rgba(255,120,20,.13),rgba(20,6,1,.26))}.theme-yura .talent-banner{clip-path:polygon(0 0,96% 0,100% 50%,96% 100%,0 100%)}
+.theme-lumiere{border-color:rgba(255,147,255,.5)}.theme-lumiere .tag{border-radius:999px}.theme-lumiere .talent-info{background:linear-gradient(135deg,rgba(255,147,255,.13),rgba(30,8,58,.24))}.theme-lumiere .talent-banner{clip-path:polygon(0 0,100% 0,92% 50%,100% 100%,0 100%)}
+.theme-reynala{border-color:rgba(161,107,255,.45)}.theme-reynala .tag{border-radius:0}.theme-reynala .talent-info{background:linear-gradient(135deg,rgba(90,45,160,.14),rgba(0,0,0,.28))}.theme-reynala .talent-banner{clip-path:polygon(0 0,90% 0,100% 100%,0 100%)}
+.theme-vyn{border-color:rgba(255,210,75,.6)}.theme-vyn .tag{border-radius:16px 6px 16px 6px}.theme-vyn .talent-info{background:linear-gradient(135deg,rgba(255,210,75,.16),rgba(70,32,0,.24))}.theme-vyn .talent-banner{clip-path:polygon(0 0,100% 0,88% 100%,0 100%)}
+@media(max-width:760px){.talent-card{grid-template-columns:1fr}.talent-banner{clip-path:none!important;min-height:210px}.talent-name{max-width:100%}.talent-info{min-height:auto}}

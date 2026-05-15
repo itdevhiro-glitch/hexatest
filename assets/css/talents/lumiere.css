@@ -1,18 +1,1 @@
-.theme-lumiere{
-  --t-accent:#e58cff;
-  --t-accent2:#7c4dff;
-  --t-text:#ffd6ff;
-  --t-font:"Cinzel", Georgia, serif;
-  --t-letter:.01em;
-  --t-symbol:'♜';
-  --t-label:'VIOLET CATHEDRAL';
-  --t-bg:linear-gradient(110deg,#13051f,#3d1765 48%,#09030f);
-  --t-scene:
-    radial-gradient(circle at 78% 18%,rgba(245,166,255,.50),transparent 15%),
-    linear-gradient(90deg,rgba(13,3,24,.98),rgba(86,31,128,.66) 46%,rgba(12,4,22,.98)),
-    repeating-linear-gradient(90deg,transparent 0 78px,rgba(255,255,255,.06) 79px 81px,transparent 82px 160px);
-  --t-pattern:
-    radial-gradient(circle at 20% 35%,rgba(255,230,255,.32),transparent 12%),
-    radial-gradient(circle at 84% 55%,rgba(183,89,255,.28),transparent 18%),
-    linear-gradient(135deg,transparent 48%,rgba(255,255,255,.13) 50%,transparent 52%);
-}
+.theme-lumiere{--t-accent:#ff93ff;--t-accent2:#9f68ff;--t-text:#ffd6ff;--t-font:'Times New Roman',Georgia,serif;--t-letter:-.04em;--t-symbol:'✦';--t-label:'Violet Cathedral';--t-bg:linear-gradient(135deg,#11061f,#36115f 48%,#09030f);--t-scene:radial-gradient(circle at 80% 25%,rgba(255,147,255,.25),transparent 22%),linear-gradient(90deg,rgba(15,5,26,.95),rgba(60,18,95,.6)),linear-gradient(145deg,#130721,#461078 55%,#09030f);--t-pattern:repeating-linear-gradient(90deg,transparent 0 34px,rgba(255,210,255,.12) 35px 36px),radial-gradient(circle at 88% 52%,rgba(255,147,255,.32),transparent 23%);--t-pattern-opacity:.9}.theme-lumiere .talent-name{font-weight:400}.theme-lumiere .talent-icon{filter:drop-shadow(0 0 28px #ff93ff)}
