@@ -21,3 +21,5 @@ The loading gate will stop visitors and show the maintenance message.
 - Firebase Auth for admin
 - Firebase Realtime Database / Firestore for talents, news, schedules, auditions
 - Replace placeholder SVG talent art with official assets
+
+Update: hero image sudah diganti ke `assets/img/talent-destiny-banner.png`. Card talent sekarang memakai tema CSS berbeda per talent sebagai placeholder sampai banner official masing-masing tersedia.
