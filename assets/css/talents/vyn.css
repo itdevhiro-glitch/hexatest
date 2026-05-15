@@ -1,0 +1,19 @@
+.theme-vyn{
+  --t-accent:#ffd15c;
+  --t-accent2:#ff9b26;
+  --t-text:#ffe69b;
+  --t-font:"Trebuchet MS", system-ui, sans-serif;
+  --t-letter:-.055em;
+  --t-symbol:'✹';
+  --t-label:'GOLDEN TRICKSTER';
+  --t-bg:linear-gradient(110deg,#211005,#8a5a0d 52%,#ffd765);
+  --t-scene:
+    radial-gradient(circle at 83% 25%,rgba(255,237,143,.75),transparent 18%),
+    radial-gradient(circle at 42% 75%,rgba(255,183,49,.22),transparent 24%),
+    linear-gradient(110deg,#170904,#764706 48%,#f4bd3c);
+  --t-pattern:
+    radial-gradient(circle at 24% 30%,rgba(255,247,185,.28),transparent 13%),
+    radial-gradient(circle at 70% 65%,rgba(255,248,189,.18),transparent 18%),
+    repeating-linear-gradient(18deg,transparent 0 22px,rgba(255,255,255,.10) 23px 24px);
+}
+.theme-vyn .talent-name{text-transform:none;font-weight:900}

@@ -1,0 +1,19 @@
+.theme-yura{
+  --t-accent:#ffb342;
+  --t-accent2:#ff6b21;
+  --t-text:#ffd18a;
+  --t-font:"Marcellus", Georgia, serif;
+  --t-letter:.00em;
+  --t-symbol:'➶';
+  --t-label:'AMBER ARCHER';
+  --t-bg:linear-gradient(110deg,#140702,#5c2705 52%,#120501);
+  --t-scene:
+    radial-gradient(circle at 86% 28%,rgba(255,176,65,.50),transparent 20%),
+    linear-gradient(0deg,rgba(255,91,18,.16),transparent 42%),
+    linear-gradient(110deg,#0e0301,#4b2005 45%,#150602);
+  --t-pattern:
+    linear-gradient(118deg,transparent 0 45%,rgba(255,200,99,.22) 46%,transparent 47%),
+    linear-gradient(62deg,transparent 0 55%,rgba(255,130,38,.14) 56%,transparent 57%),
+    radial-gradient(circle at 76% 70%,rgba(255,202,115,.18),transparent 18%);
+}
+.theme-yura .talent-icon{rotate:-7deg}

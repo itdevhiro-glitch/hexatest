@@ -1,0 +1,20 @@
+.theme-daiki{
+  --t-accent:#dfe6ff;
+  --t-accent2:#6e7b91;
+  --t-text:#eef3ff;
+  --t-font:"Trajan Pro", "Times New Roman", serif;
+  --t-letter:-.02em;
+  --t-symbol:'☾';
+  --t-label:'MOON WOLF';
+  --t-bg:linear-gradient(110deg,#05070c,#232a35 50%,#07080b);
+  --t-scene:
+    radial-gradient(circle at 82% 24%,rgba(255,255,255,.82) 0 5%,rgba(255,255,255,.12) 6%,transparent 13%),
+    linear-gradient(180deg,rgba(255,255,255,.08),transparent 34%),
+    linear-gradient(110deg,#030408,#1c222e 48%,#05070c);
+  --t-pattern:
+    radial-gradient(circle at 72% 76%,rgba(255,255,255,.10),transparent 24%),
+    linear-gradient(160deg,transparent 58%,rgba(255,255,255,.11) 59%,transparent 60%),
+    repeating-linear-gradient(0deg,transparent 0 18px,rgba(255,255,255,.035) 19px 20px);
+  --t-pattern-opacity:.6;
+}
+.theme-daiki .talent-banner:after{background:linear-gradient(90deg,rgba(0,0,0,.84),rgba(9,11,15,.18),rgba(0,0,0,.78))}
